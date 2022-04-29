@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+html,
+body {
+    font-family: Inter, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0F1021;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#welcome-section {
+    height: 100%;
+    position: relative
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+
+}
+
+nav, ul {
+    list-style: none;
+    color: #D01257;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
